@@ -72,10 +72,6 @@ view: users {
     drill_fields: [detail*]
   }
 
-  measure: count_zip {
-    type: count_distinct
-    sql: ${zip} ;;
-  }
 
   # ----- Sets of fields for drilling ------
   set: detail {
